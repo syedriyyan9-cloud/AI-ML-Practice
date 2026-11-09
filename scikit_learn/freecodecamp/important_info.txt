@@ -1,0 +1,8 @@
+
+Category / Submodule	What lives there?	                                Example Import Statement
+linear_model	        Anything that uses lines, coefficients, or planes	from sklearn.linear_model import LogisticRegression, LinearRegression
+ensemble	            Models combining multiple trees or estimators	    from sklearn.ensemble import RandomForestClassifier, GradientBoostingRegressor
+tree	                Single decision tree models	                        from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
+svm	                    Support Vector Machines	                            from sklearn.svm import SVC, SVR
+neighbors	            K-Nearest Neighbors algorithms	                    from sklearn.neighbors import KNeighborsClassifier
+cluster	                Unsupervised grouping algorithms	                from sklearn.cluster import KMeans
